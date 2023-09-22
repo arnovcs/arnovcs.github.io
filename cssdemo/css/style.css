@@ -12,7 +12,7 @@ body {
 .nav {
     list-style-type: none;
     margin: 0;
-    padding:0;
+    padding: 0;
     overflow: hidden;
     background-color: lightblue;
 }
@@ -22,7 +22,7 @@ body {
 }
 
 .nav li a {
-    display:block;
+    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
