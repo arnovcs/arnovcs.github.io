@@ -1,0 +1,78 @@
+.container {
+    margin: 20px 50px;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: #3AAFA9;
+}
+
+.centered {
+    margin: 10px auto;
+    display: block;
+}
+
+a {
+    color: black;
+}
+
+html {
+    background-color: #17252A;
+}
+
+#darkcolor {
+    color: #17252A;
+}
+
+#mediumcolor {
+    color: #2B7A78;
+}
+
+#cyancolor {
+    color: #3AAFA9;
+}
+
+#lightcolor {
+    color: #DEF2F1
+}
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DEF2F1;
+    border-style: solid;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav li a:hover {
+    background-color: #2B7A78;
+}
+
+.active-navpage {
+    background-color: lightskyblue;
+}
+
+/* button code from w3 schools*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
