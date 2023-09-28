@@ -18,6 +18,15 @@ html {
     background-color: #17252A;
 }
 
+h1 {
+    font-family: fantasy;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Third font found in the internal css style tab of the gallery page within the id 'caption'
+
 #darkcolor {
     color: #17252A;
 }
@@ -66,7 +75,8 @@ html {
 
 /* button code from w3 schools*/
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -74,5 +84,4 @@ html {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
-
+}
