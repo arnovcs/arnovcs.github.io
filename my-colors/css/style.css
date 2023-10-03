@@ -1,0 +1,44 @@
+.container {
+    margin: 20px 50px;
+    border: 1px solid black;
+    padding: 50px;
+    background-color: rgb(219, 210, 198);
+}
+
+html {
+    background-color: rgb(79, 68, 74);
+
+}
+
+a {
+    color: black;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(77, 52, 21);
+    border-style: solid;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav li a:hover {
+    background-color: lightskyblue;
+}
+
+.active-navpage {
+    background-color: white;
+}
