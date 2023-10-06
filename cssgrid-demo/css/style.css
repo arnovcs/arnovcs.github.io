@@ -1,0 +1,131 @@
+/*  this is my grid style for all pages */
+
+body {
+    background-color: white;
+}
+
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-template-rows: ;
+    grid-gap: 10px;
+}
+
+.griditem {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.grid-itemright {
+    background-color: red;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    height: 100px;
+}
+
+
+/* this goes on very top of grid */
+.navmenu {
+    grid-column: 1/ span 3;
+    grid-row: 1;
+}
+
+/* right below nav menu */
+.mainimage {
+    grid-column: 1/ span 3;
+    grid-row: 2;
+    width: 150%;
+}
+
+.main1 {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.main2 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+}
+
+.support1 {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.support2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.sidenav {
+    grid-column: 3;
+    grid-row: 3 /span 3;
+}
+
+.index {
+    margin: 20px 50px;
+    border: 1px solid black;
+    padding: 60x;
+    background-color: burlywood;
+    border-radius: 15px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav li a:hover {
+    background-color: burlywood;
+}
+
+.active-navpage {
+    background-color: lightskyblue;
+}
+
+.grid-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200%;
+    max-height: 200%;
+    width: 1000px;
+    height: 600px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.centered {
+    margin: 10px auto;
+    display: block;
+}
