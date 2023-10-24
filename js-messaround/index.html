@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" id="htm">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Let's learn javascript!</h1>
+    <h2>How do we onclick events and alerts on an anchor</h2>
+    <a href="https://eastsideprep.org" target="_blank"
+        onclick="alert('Warning! You are navigating away from my site!')">Eastside prep</a>
+    <!--target blank opens in a new tab, onclick means that on click it activates JS code-->
+
+    <h2>What's my secret identity?</h2>
+    <p id="secret">yahoo!</p>
+    <button onclick="document.getElementById('secret').innerHTML='Nana nana nana nana, Batman!';
+        document.getElementById('secret').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide!</button>
+    <!--  .style changes the css in Javascript
+    display block makes it able to re reveal again-->
+
+    <h2>Two Truths and a Lie</h2>
+    <p id="content">I am a black belt in TaeKwonDoe</p>
+    <p id="content1">I lived in India for 2 years</p>
+    <p id="lie"></p>
+    <p>I like drinking coffee</p>
+    <button
+        onclick="document.getElementById('lie').innerHTML='LIE:';
+    document.getElementById('lie').style.display='block'; document.getElementById('content').style.display='none'; document.getElementById('content1').style.display='none'">Reveal!</button>
+    <button
+        onclick="document.getElementById('lie').style.display='none'; document.getElementById('content').innerHTML='I am a black belt in TaeKwonDoe'; document.getElementById('content1').innerHTML='I lived in India for two years';document.getElementById('content').style.display='block';document.getElementById('content1').style.display='block'">Hide!</button>
+
+
+    <h2>How do we change an image with javascript?</h2>
+    <img id="bulb" src="images/off.gif" alt="bulb that is off">
+    <button onclick="document.getElementById('bulb').src='images/on.gif'">Lightbulb ON</button>
+
+    <button onclick="document.getElementById('bulb').src='images/off.gif'">Lightbulb OFF</button>
+
+    <h2>How do we change css styles with a button</h2>
+    <p id="alice">Hi. I am Alice.</p>
+    <button onclick="document.getElementById('alice').style.color='blue'; 
+        document.getElementById('alice').style.fontSize='5px';">Eat me</button>
+    <!-- todo: Add button to make alice large in red text when she drinks potion -->
+    <button
+        onclick="document.getElementById('alice').style.color='red';document.getElementById('alice').style.fontSize='50px';">Larger</button>
+
+    <h2>How do we return user input?</h2>
+    <button onclick="askName()">Whats your name?</button>
+    <p id="ask-name"></p>
+
+    <script>
+        function askName() {
+            let nameParagraph = document.getElementById('ask-name');
+            let name = prompt('What is your name?');
+            // decide what to do
+            if (name === "batman") {
+                nameParagraph.innerHTML = "Welcome to the batcave sir."
+            } else {
+                nameParagraph.innerHTML = "Hello" + name;
+            }
+        }
+    </script>
+
+    <h2>Change the background image!</h2>
+    <button onclick="document.getElementById('htm').style.backgroundImage='url(images/forest.jpg)'">Forest</button>
+    <button onclick="document.getElementById('htm').style.backgroundImage='none'">None</button>
+
+    <h2>Add, then customize the border</h2>
+    <p id="border">border</p>
+    <button onclick="document.getElementById('border').style.border='thick solid black'; ">border1</button>
+    <button onclick="document.getElementById('border').style.border='thick solid red'; ">border2</button>
+</body>
+
+</html>
