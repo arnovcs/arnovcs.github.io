@@ -2,24 +2,135 @@ li {
     color: rgb(47, 79, 79);
 }
 
-.bold {
+/*  TEXT  */
+h1,
+h2,
+h3,
+h4 {
     font-family: "komet", sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
 }
 
-.regitalic {
-
+p {
+    font-family: "komet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
 }
 
-.boldscitalic {
+li {
+    font-family: "komet", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* PRIMARY */
+.primary {
+    font-family: "komet", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* SECONDARY */
+.secondary {
+    font-family: "komet-sc", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* ACCENT */
+.accent {
     font-family: "komet-sc", sans-serif;
     font-weight: 900;
     font-style: italic;
 }
 
 .light {
-    font-family: "komet-sc", sans-serif;
-    font-weight: 200;
+    font-family: "komet", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
+
+/* COLORS */
+
+
+/* PRIMARY/DOMINANT (called secondary but it is primary) */
+.secondary {
+    background-color: rgb(66, 118, 177); 
+    color:white /* for the text within*/
+}
+
+/* SECONDARY/BACKGROUND - rgb(255,255,255) */
+
+/* ACCENT */
+.darkbbluecolor {
+    background-color: #003851;
+}
+
+
+
+.darkcolor {
+    background-color: #002535;
+}
+
+.greenbbluecolor {
+    background-color: #22646e;
+}
+
+.lightcolor {
+    background-color: #bfd2d9;
+}
+
+.lightbluecolor {
+    background-color: #3b89ac;
+}
+
+
+/* OTHER */
+
+.backgroundimage {
+    background-image:url(https://i0.wp.com/motheroceanfund.org/wp-content/uploads/2021/07/conor-sexton-hRemch0ZDwI-unsplash-2.jpg?fit=1920%2C1280&ssl=1);
+    background-size: cover;
+    color: white;
+}
+
+
+.centfooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+    
+.rightfooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: right;
+}
+
+.button {
+    background-color: rgb(66, 118, 177);
+    /* Green */
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.border1 {
+    border: 2px solid black;
+}
+
+.largefont {
+    font-size:large;
+}
+
